@@ -1,0 +1,29 @@
+body {
+  background-image: url("../images/amagasaki1.JPG");
+}
+
+.list-group {
+  height: 100vh;
+  width: 100px;
+}
+
+.list-group-item {
+  border: none;
+  cursor: pointer;
+}
+
+.list-blank {
+  background-color: transparent;
+}
+
+.iziModal {
+  border-radius: 0px !important;
+}
+
+.iziModal .iziModal-header {
+  background-color: #66BB6A;
+}
+
+.iziModal .iziModal-header-title {
+  color: #000;
+}
