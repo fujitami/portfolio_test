@@ -2,6 +2,10 @@ body {
   background-image: url("../images/amagasaki1.JPG");
 }
 
+.container {
+  background: no-repeat center/200px auto url("../images/FUJITAMI.png") fixed;
+}
+
 .list-group {
   height: 100vh;
   width: 100px;
@@ -12,12 +16,12 @@ body {
   cursor: pointer;
 }
 
-.list-blank {
-  background-color: transparent;
+.list-group-item p {
+  margin: 0;
 }
 
-.iziModal {
-  border-radius: 0px !important;
+.list-blank {
+  background-color: transparent;
 }
 
 .iziModal .iziModal-header {
@@ -25,5 +29,51 @@ body {
 }
 
 .iziModal .iziModal-header-title {
-  color: #000;
+  color: #000000;
+}
+
+.iziModal .iziModal-header-subtitle {
+  color: #000111;
+}
+
+.content550 {
+  width: 550px;
+}
+
+#profile__detail-content--icon {
+  padding: 0.25rem;
+  width: 100px;
+  height: auto;
+}
+
+.fab {
+  font-size: 20px;
+  color: #000000;
+}
+
+#profile__detail-content--caption {
+  width: 400px;
+}
+
+#skill__detail-content .skill__detail-image {
+  height: 100px;
+  padding: 0.5rem;
+}
+
+#product__detail-card {
+  display: block;
+  border: none;
+}
+
+#product__detail-logo {
+  width: 200px;
+  padding: 0.5rem;
+}
+
+#product__detail-caption {
+  width: 300px;
+}
+
+.iziModal.hasShadow::after {
+  height: 10px;
 }
